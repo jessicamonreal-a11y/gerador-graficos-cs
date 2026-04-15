@@ -42,7 +42,7 @@ if logo_b64:
         unsafe_allow_html=True
     )
 else:
-    st.title("📊 Gerador de Relatórios CS")
+    st.title("📊 Gerador de Gráficos CS - Tickets Zendesk")
     st.markdown("Análise comparativa de performance e ocorrências por período.")
     st.divider()
 
