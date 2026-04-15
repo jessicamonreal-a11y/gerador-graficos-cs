@@ -53,12 +53,12 @@ with st.sidebar:
     
     st.header("⚙️ Configurações")
     nome_cliente = st.text_input("Nome do Cliente", "Cliente Exemplo")
-    min_tickets  = st.number_input("Mínimo de Tickets (Filtro)", value=5, min_value=0)
+    min_tickets  = st.number_input("Mínimo de Tickets (Filtro - quantidade mínima de tickets sobre o tema para que apareça no gráfico. Para aparecer todos, deixe como 1):", value=5, min_value=0)
     
     st.markdown("---")
     st.subheader("Períodos para Análise")
     st.info("Formato: Mês:Valor (Ex: Março:1200, Abril:1500, Maio:1400)")
-    dados_envios_input = st.text_area("Quantidade de Envios (digite a quantidade de envios para cada mês que deseja que apareça no gráfico)", "Março:1200, Abril:1500")
+    dados_envios_input = st.text_area("Quantidade de Envios (digite a quantidade de envios para cada mês que deseja que apareça no gráfico):", "Março:1200, Abril:1500")
 
 # --- 5. CORES E ESTILO ---
 AZUL_ESCURO = '#185FA5'
