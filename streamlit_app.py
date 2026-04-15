@@ -58,7 +58,7 @@ with st.sidebar:
     st.markdown("---")
     st.subheader("Períodos para Análise")
     st.info("Formato: Mês:Valor (Ex: Março:1200, Abril:1500, Maio:1400)")
-    dados_envios_input = st.text_area("Lista de Envios", "Março:1200, Abril:1500")
+    dados_envios_input = st.text_area("Quantidade de Envios (digite a quantidade de envios para cada mês que deseja que apareça no gráfico)", "Março:1200, Abril:1500")
 
 # --- 5. CORES E ESTILO ---
 AZUL_ESCURO = '#185FA5'
